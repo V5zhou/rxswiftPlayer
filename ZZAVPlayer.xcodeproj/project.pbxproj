@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0A5AE22F970E228DF81736 /* Pods_ZZAVPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690AFD861CE3A7BE84CC65D3 /* Pods_ZZAVPlayer.framework */; };
+		6AEF65CA47086F25E87EDA54 /* Pods_ZZAVPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B76F86893D7E7BF87633FE /* Pods_ZZAVPlayerTests.framework */; };
+		FC9421A82248A646009AB8F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9421A72248A646009AB8F4 /* AppDelegate.swift */; };
+		FC9421AA2248A646009AB8F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9421A92248A646009AB8F4 /* ViewController.swift */; };
+		FC9421AD2248A646009AB8F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9421AB2248A646009AB8F4 /* Main.storyboard */; };
+		FC9421AF2248A647009AB8F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9421AE2248A647009AB8F4 /* Assets.xcassets */; };
+		FC9421B22248A647009AB8F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9421B02248A647009AB8F4 /* LaunchScreen.storyboard */; };
+		FC9421BA2248A6D0009AB8F4 /* ZZAVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9421B92248A6D0009AB8F4 /* ZZAVPlayer.swift */; };
+		FC9421BC2248A748009AB8F4 /* ZZAVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9421BB2248A748009AB8F4 /* ZZAVPlayerView.swift */; };
+		FC9421BE2248A7E7009AB8F4 /* ZZAVPlayerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9421BD2248A7E7009AB8F4 /* ZZAVPlayerInfo.swift */; };
+		FC9421C62248C6B1009AB8F4 /* ZZAVPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9421C52248C6B1009AB8F4 /* ZZAVPlayerTests.swift */; };
+		FC9421CE2248CAC1009AB8F4 /* music.json in Resources */ = {isa = PBXBuildFile; fileRef = FC9421CD2248CAC1009AB8F4 /* music.json */; };
+		FC9421D02249BC06009AB8F4 /* ZZAVPlayerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9421BD2248A7E7009AB8F4 /* ZZAVPlayerInfo.swift */; };
+		FC9421D22249C252009AB8F4 /* ZZAVPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9421D12249C252009AB8F4 /* ZZAVPlayerView.xib */; };
+		FC9421D42249D0A0009AB8F4 /* ZZAVPlayerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9421D32249D0A0009AB8F4 /* ZZAVPlayerVM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC9421C82248C6B1009AB8F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC94219C2248A646009AB8F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9421A32248A646009AB8F4;
+			remoteInfo = ZZAVPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28FFFC490493924CBFB063D7 /* Pods-ZZAVPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZAVPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-ZZAVPlayerTests/Pods-ZZAVPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4919661F5B901D6A573F6251 /* Pods-ZZAVPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZAVPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-ZZAVPlayerTests/Pods-ZZAVPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E5209CA680515297562BA60 /* Pods-ZZAVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZAVPlayer.debug.xcconfig"; path = "Target Support Files/Pods-ZZAVPlayer/Pods-ZZAVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		57B76F86893D7E7BF87633FE /* Pods_ZZAVPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZAVPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		690AFD861CE3A7BE84CC65D3 /* Pods_ZZAVPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZAVPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		850BC18A49F11946B0D037C8 /* Pods-ZZAVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZAVPlayer.release.xcconfig"; path = "Target Support Files/Pods-ZZAVPlayer/Pods-ZZAVPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		FC9421A42248A646009AB8F4 /* ZZAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9421A72248A646009AB8F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC9421A92248A646009AB8F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC9421AC2248A646009AB8F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC9421AE2248A647009AB8F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9421B12248A647009AB8F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC9421B32248A647009AB8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9421B92248A6D0009AB8F4 /* ZZAVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZAVPlayer.swift; sourceTree = "<group>"; };
+		FC9421BB2248A748009AB8F4 /* ZZAVPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZAVPlayerView.swift; sourceTree = "<group>"; };
+		FC9421BD2248A7E7009AB8F4 /* ZZAVPlayerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZAVPlayerInfo.swift; sourceTree = "<group>"; };
+		FC9421C32248C6B1009AB8F4 /* ZZAVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZAVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9421C52248C6B1009AB8F4 /* ZZAVPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZAVPlayerTests.swift; sourceTree = "<group>"; };
+		FC9421C72248C6B1009AB8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9421CD2248CAC1009AB8F4 /* music.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = music.json; sourceTree = "<group>"; };
+		FC9421D12249C252009AB8F4 /* ZZAVPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZAVPlayerView.xib; sourceTree = "<group>"; };
+		FC9421D32249D0A0009AB8F4 /* ZZAVPlayerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZAVPlayerVM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9421A12248A646009AB8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0A5AE22F970E228DF81736 /* Pods_ZZAVPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9421C02248C6B1009AB8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEF65CA47086F25E87EDA54 /* Pods_ZZAVPlayerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0C7E7C1B4A34758FF7D78A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				690AFD861CE3A7BE84CC65D3 /* Pods_ZZAVPlayer.framework */,
+				57B76F86893D7E7BF87633FE /* Pods_ZZAVPlayerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB09F274F06D702C2BBC56F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E5209CA680515297562BA60 /* Pods-ZZAVPlayer.debug.xcconfig */,
+				850BC18A49F11946B0D037C8 /* Pods-ZZAVPlayer.release.xcconfig */,
+				28FFFC490493924CBFB063D7 /* Pods-ZZAVPlayerTests.debug.xcconfig */,
+				4919661F5B901D6A573F6251 /* Pods-ZZAVPlayerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC94219B2248A646009AB8F4 = {
+			isa = PBXGroup;
+			children = (
+				FC9421A62248A646009AB8F4 /* ZZAVPlayer */,
+				FC9421C42248C6B1009AB8F4 /* ZZAVPlayerTests */,
+				FC9421A52248A646009AB8F4 /* Products */,
+				FB09F274F06D702C2BBC56F1 /* Pods */,
+				1B0C7E7C1B4A34758FF7D78A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9421A52248A646009AB8F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9421A42248A646009AB8F4 /* ZZAVPlayer.app */,
+				FC9421C32248C6B1009AB8F4 /* ZZAVPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9421A62248A646009AB8F4 /* ZZAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FC9421A72248A646009AB8F4 /* AppDelegate.swift */,
+				FC9421A92248A646009AB8F4 /* ViewController.swift */,
+				FC9421BD2248A7E7009AB8F4 /* ZZAVPlayerInfo.swift */,
+				FC9421B92248A6D0009AB8F4 /* ZZAVPlayer.swift */,
+				FC9421BB2248A748009AB8F4 /* ZZAVPlayerView.swift */,
+				FC9421D12249C252009AB8F4 /* ZZAVPlayerView.xib */,
+				FC9421D32249D0A0009AB8F4 /* ZZAVPlayerVM.swift */,
+				FC9421AB2248A646009AB8F4 /* Main.storyboard */,
+				FC9421CD2248CAC1009AB8F4 /* music.json */,
+				FC9421AE2248A647009AB8F4 /* Assets.xcassets */,
+				FC9421B02248A647009AB8F4 /* LaunchScreen.storyboard */,
+				FC9421B32248A647009AB8F4 /* Info.plist */,
+			);
+			path = ZZAVPlayer;
+			sourceTree = "<group>";
+		};
+		FC9421C42248C6B1009AB8F4 /* ZZAVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9421C52248C6B1009AB8F4 /* ZZAVPlayerTests.swift */,
+				FC9421C72248C6B1009AB8F4 /* Info.plist */,
+			);
+			path = ZZAVPlayerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9421A32248A646009AB8F4 /* ZZAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9421B62248A647009AB8F4 /* Build configuration list for PBXNativeTarget "ZZAVPlayer" */;
+			buildPhases = (
+				E38E2808C84FD95FD496AE1D /* [CP] Check Pods Manifest.lock */,
+				FC9421A02248A646009AB8F4 /* Sources */,
+				FC9421A12248A646009AB8F4 /* Frameworks */,
+				FC9421A22248A646009AB8F4 /* Resources */,
+				58AC1C6C8987D165B76F0A78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZAVPlayer;
+			productName = ZZAVPlayer;
+			productReference = FC9421A42248A646009AB8F4 /* ZZAVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC9421C22248C6B1009AB8F4 /* ZZAVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9421CC2248C6B1009AB8F4 /* Build configuration list for PBXNativeTarget "ZZAVPlayerTests" */;
+			buildPhases = (
+				3EA0FC8745322A2F23BDA361 /* [CP] Check Pods Manifest.lock */,
+				FC9421BF2248C6B1009AB8F4 /* Sources */,
+				FC9421C02248C6B1009AB8F4 /* Frameworks */,
+				FC9421C12248C6B1009AB8F4 /* Resources */,
+				76A63ED4820D3D834B80BB57 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9421C92248C6B1009AB8F4 /* PBXTargetDependency */,
+			);
+			name = ZZAVPlayerTests;
+			productName = ZZAVPlayerTests;
+			productReference = FC9421C32248C6B1009AB8F4 /* ZZAVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC94219C2248A646009AB8F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zmz;
+				TargetAttributes = {
+					FC9421A32248A646009AB8F4 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					FC9421C22248C6B1009AB8F4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC9421A32248A646009AB8F4;
+					};
+				};
+			};
+			buildConfigurationList = FC94219F2248A646009AB8F4 /* Build configuration list for PBXProject "ZZAVPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC94219B2248A646009AB8F4;
+			productRefGroup = FC9421A52248A646009AB8F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9421A32248A646009AB8F4 /* ZZAVPlayer */,
+				FC9421C22248C6B1009AB8F4 /* ZZAVPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9421A22248A646009AB8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9421B22248A647009AB8F4 /* LaunchScreen.storyboard in Resources */,
+				FC9421AF2248A647009AB8F4 /* Assets.xcassets in Resources */,
+				FC9421AD2248A646009AB8F4 /* Main.storyboard in Resources */,
+				FC9421CE2248CAC1009AB8F4 /* music.json in Resources */,
+				FC9421D22249C252009AB8F4 /* ZZAVPlayerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9421C12248C6B1009AB8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EA0FC8745322A2F23BDA361 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZAVPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58AC1C6C8987D165B76F0A78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZAVPlayer/Pods-ZZAVPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZAVPlayer/Pods-ZZAVPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76A63ED4820D3D834B80BB57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZAVPlayerTests/Pods-ZZAVPlayerTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZAVPlayerTests/Pods-ZZAVPlayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38E2808C84FD95FD496AE1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZAVPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9421A02248A646009AB8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9421BE2248A7E7009AB8F4 /* ZZAVPlayerInfo.swift in Sources */,
+				FC9421AA2248A646009AB8F4 /* ViewController.swift in Sources */,
+				FC9421D42249D0A0009AB8F4 /* ZZAVPlayerVM.swift in Sources */,
+				FC9421BA2248A6D0009AB8F4 /* ZZAVPlayer.swift in Sources */,
+				FC9421BC2248A748009AB8F4 /* ZZAVPlayerView.swift in Sources */,
+				FC9421A82248A646009AB8F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9421BF2248C6B1009AB8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9421C62248C6B1009AB8F4 /* ZZAVPlayerTests.swift in Sources */,
+				FC9421D02249BC06009AB8F4 /* ZZAVPlayerInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC9421C92248C6B1009AB8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC9421A32248A646009AB8F4 /* ZZAVPlayer */;
+			targetProxy = FC9421C82248C6B1009AB8F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC9421AB2248A646009AB8F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9421AC2248A646009AB8F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC9421B02248A647009AB8F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9421B12248A647009AB8F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC9421B42248A647009AB8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC9421B52248A647009AB8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC9421B72248A647009AB8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5209CA680515297562BA60 /* Pods-ZZAVPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZZAVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xhg.ZZAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FC9421B82248A647009AB8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850BC18A49F11946B0D037C8 /* Pods-ZZAVPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZZAVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xhg.ZZAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FC9421CA2248C6B1009AB8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28FFFC490493924CBFB063D7 /* Pods-ZZAVPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH6XM8252K;
+				INFOPLIST_FILE = ZZAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xhg.ZZAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZAVPlayer.app/ZZAVPlayer";
+			};
+			name = Debug;
+		};
+		FC9421CB2248C6B1009AB8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4919661F5B901D6A573F6251 /* Pods-ZZAVPlayerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH6XM8252K;
+				INFOPLIST_FILE = ZZAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xhg.ZZAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZAVPlayer.app/ZZAVPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC94219F2248A646009AB8F4 /* Build configuration list for PBXProject "ZZAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9421B42248A647009AB8F4 /* Debug */,
+				FC9421B52248A647009AB8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9421B62248A647009AB8F4 /* Build configuration list for PBXNativeTarget "ZZAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9421B72248A647009AB8F4 /* Debug */,
+				FC9421B82248A647009AB8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9421CC2248C6B1009AB8F4 /* Build configuration list for PBXNativeTarget "ZZAVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9421CA2248C6B1009AB8F4 /* Debug */,
+				FC9421CB2248C6B1009AB8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC94219C2248A646009AB8F4 /* Project object */;
+}
